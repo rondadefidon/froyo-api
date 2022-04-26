@@ -24,8 +24,12 @@ import getMaiCurveApys from './getMaiCurveApys';
 import { getPangolinV2Apys } from './getPangolinV2Apys';
 import getbeJOEApy from './getbeJOEApy';
 import getbeJOEEarnApy from './getbeJOEEarnApy';
+const getIceCreamApys = require('./getIceCreamApys');
+const getSundaeApys = require('./getSundaeApys');
 
 const getApys = [
+  getIceCreamApys,
+  getSundaeApys,
   getbeJOEApy,
   getbeJOEEarnApy,
   getPangolinV2Apys,
