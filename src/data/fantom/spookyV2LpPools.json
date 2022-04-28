@@ -22,6 +22,28 @@
     }
   },
   {
+    "name": "boo-wftm-sftmx",
+    "address": "0xE67980fc955FECfDA8A92BbbFBCc9f0C4bE60A9A",
+    "decimals": "1e18",
+    "poolId": 4,
+    "chainId": 250,
+    "oracleB": "tokens",
+    "oracleIdB": "SD",
+    "decimalsB": "1e18",
+    "lp0": {
+      "address": "0x21be370D5312f44cB42ce377BC9b8a0cEF1A4C83",
+      "oracle": "tokens",
+      "oracleId": "WFTM",
+      "decimals": "1e18"
+    },
+    "lp1": {
+      "address": "0xd7028092c830b5C8FcE061Af2E593413EbbC1fc1",
+      "oracle": "tokens",
+      "oracleId": "sFTMx",
+      "decimals": "1e18"
+    }
+  },
+  {
     "name": "boo-usdc-dei",
     "address": "0xD343b8361Ce32A9e570C1fC8D4244d32848df88B",
     "decimals": "1e18",

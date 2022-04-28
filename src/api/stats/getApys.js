@@ -32,20 +32,20 @@ const updateApys = async () => {
 
   try {
     const results = await Promise.allSettled([
-      getMaticApys(),
+      // getMaticApys(),
       getAvaxApys(),
-      getFantomApys(),
-      getHecoApys(),
-      getBSCApys(),
-      getOneApys(),
-      getArbitrumApys(),
-      getCeloApys(),
-      getMoonriverApys(),
-      getCronosApys(),
-      getAuroraApys(),
-      getFuseApys(),
-      getMetisApys(),
-      getMoonbeamApys(),
+      // getFantomApys(),
+      // getHecoApys(),
+      // getBSCApys(),
+      // getOneApys(),
+      // getArbitrumApys(),
+      // getCeloApys(),
+      // getMoonriverApys(),
+      // getCronosApys(),
+      // getAuroraApys(),
+      // getFuseApys(),
+      // getMetisApys(),
+      // getMoonbeamApys(),
     ]);
 
     for (const result of results) {
