@@ -1,6 +1,6 @@
 const getRamenLpApys = require('./getRamenLpApys');
-const getBlizzardApy = require('./getBlizzardApy');
-const getBlizzardLpApys = require('./getBlizzardLpApys');
+//const getBlizzardApy = require('./getBlizzardApy');
+//const getBlizzardLpApys = require('./getBlizzardLpApys');
 const getSaltLpApys = require('./getSaltLpApys');
 const getApeApys = require('./getApeApys');
 const getSpaceLpApys = require('./getSpaceLpApys');
@@ -30,8 +30,8 @@ const getEmpApys = require('./getEmpApys');
 
 const getApys = [
   getRamenLpApys,
-  getBlizzardApy,
-  getBlizzardLpApys,
+  //getBlizzardApy,
+  //getBlizzardLpApys,
   getSaltLpApys,
   getApeApys,
   getSpaceLpApys,

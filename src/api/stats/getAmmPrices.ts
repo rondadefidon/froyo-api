@@ -11,7 +11,7 @@ import { getKey, setKey } from '../../utils/redisHelper';
 
 import getNonAmmPrices from './getNonAmmPrices';
 import bakeryPools from '../../data/bakeryLpPools.json';
-import blizzardLpPools from '../../data/degens/blizzardLpPools.json';
+//import blizzardLpPools from '../../data/degens/blizzardLpPools.json';
 import alpacaLpPools from '../../data/alpacaLpPools.json';
 import cafePools from '../../data/cafeLpPools.json';
 import cakeLpPools from '../../data/cakeLpPools.json';
@@ -423,7 +423,7 @@ const pools = [
   ...pangolinPools,
   ...swipePools,
   ...slimePools,
-  ...blizzardLpPools,
+  //...blizzardLpPools,
   ...nutsPools,
   ...memePools,
   ...julPools,
