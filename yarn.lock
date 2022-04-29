@@ -3013,9 +3013,9 @@ hosted-git-info@^2.1.4:
   integrity sha512-mxIDAb9Lsm6DoOJ7xH+5+X4y1LU/4Hi50L9C5sIswK3JzULS4bwk1FvjdBgvYR4bzT4tuUQiC15FE2f5HbLvYw==
 
 hoyo-addressbook@^1.0.4:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/hoyo-addressbook/-/hoyo-addressbook-1.0.4.tgz#512dff13fcdf568cb648e9ea290d7e1890688db9"
-  integrity sha512-I5t47r9b0cIDKBJCtB3qjOjgvaQgX0Hev4+RtiAZpwUM3oRt6tre6dBwYAgYw2c+WYD0jAkOeq7x66uloBEj/w==
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/hoyo-addressbook/-/hoyo-addressbook-1.0.5.tgz#7a998bd98a7feb00bd748aa189465b491fca97fb"
+  integrity sha512-uYqvqnj3YWJPTH0czxTUJHl4qB1dFi9Wzu6EYQEa+2wNR8xKqgDqHa0u9cDYzFpokoqL8VhuzZ5c2GS07Zn7/Q==
 
 hpkp@2.0.0:
   version "2.0.0"
