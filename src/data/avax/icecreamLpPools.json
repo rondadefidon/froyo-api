@@ -20,7 +20,7 @@
   },
   {
     "name": "icecream-cshare-avax",
-    "address": "0xbD61dFAd83Fc19960476abca1324FfD798234c66 ",
+    "address": "0xbD61dFAd83Fc19960476abca1324FfD798234c66",
     "decimals": "1e18",
     "poolId": 1,
     "chainId": 43114,
