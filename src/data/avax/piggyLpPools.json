@@ -1,0 +1,40 @@
+[
+  {
+    "name": "piggy-piggy-avax",
+    "address": "0x2440885843d8e9f16a4b64933354d1CfBCf7F180",
+    "decimals": "1e18",
+    "poolId": 0,
+    "chainId": 43114,
+    "lp1": {
+      "address": "0x1a877B68bdA77d78EEa607443CcDE667B31B0CdF",
+      "oracle": "tokens",
+      "oracleId": "PIGGY",
+      "decimals": "1e18"
+    },
+    "lp0": {
+      "address": "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7",
+      "oracle": "tokens",
+      "oracleId": "AVAX",
+      "decimals": "1e18"
+    }
+  },
+  {
+    "name": "piggy-pshare-avax",
+    "address": "0x40128a19f97cb09f13cc370909fc82e69bccabb1",
+    "decimals": "1e18",
+    "poolId": 1,
+    "chainId": 43114,
+    "lp1": {
+      "address": "0xA5e2cFe48fe8C4ABD682CA2B10fCAaFE34b8774c",
+      "oracle": "tokens",
+      "oracleId": "PSHARE",
+      "decimals": "1e18"
+    },
+    "lp0": {
+      "address": "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7",
+      "oracle": "tokens",
+      "oracleId": "AVAX",
+      "decimals": "1e18"
+    }
+  }
+]
