@@ -5,13 +5,13 @@
     "decimals": "1e18",
     "poolId": 0,
     "chainId": 43114,
-    "lp0": {
+    "lp1": {
       "address": "0xae21d31a6494829a9e4b2b291f4984aae8121757",
       "oracle": "tokens",
       "oracleId": "CREAM",
       "decimals": "1e18"
     },
-    "lp1": {
+    "lp0": {
       "address": "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7",
       "oracle": "tokens",
       "oracleId": "AVAX",
@@ -24,13 +24,13 @@
     "decimals": "1e18",
     "poolId": 1,
     "chainId": 43114,
-    "lp0": {
+    "lp1": {
       "address": "0x155f794b56353533e0afbf76e1b1fc57dfad5bd7",
       "oracle": "tokens",
       "oracleId": "CSHARE",
       "decimals": "1e18"
     },
-    "lp1": {
+    "lp0": {
       "address": "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7",
       "oracle": "tokens",
       "oracleId": "AVAX",
@@ -43,13 +43,13 @@
     "decimals": "1e18",
     "poolId": 2,
     "chainId": 43114,
-    "lp0": {
+    "lp1": {
       "address": "0x155f794b56353533e0afbf76e1b1fc57dfad5bd7",
       "oracle": "tokens",
       "oracleId": "CSHARE",
       "decimals": "1e18"
     },
-    "lp1": {
+    "lp0": {
       "address": "0xae21d31a6494829a9e4b2b291f4984aae8121757",
       "oracle": "tokens",
       "oracleId": "CREAM",
