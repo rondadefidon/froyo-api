@@ -16,7 +16,7 @@ const AVAX = {
 
 const _tokens = {
   CREAM: {
-    name: 'CREAM',
+    name: 'IceCream Finance',
     symbol: 'CREAM',
     address: '0xAE21d31a6494829a9E4B2B291F4984AAE8121757',
     chainId: 43114,
@@ -27,7 +27,7 @@ const _tokens = {
     logoURI: 'https://raw.githubusercontent.com/IceCreamFinancial/froyoassets/main/CREAM.png',
   },
   CSHARE: {
-    name: 'CSHARE',
+    name: 'IceCream Shares',
     symbol: 'CSHARE',
     address: '0x155f794b56353533E0AfBF76e1B1FC57DFAd5Bd7',
     chainId: 43114,
