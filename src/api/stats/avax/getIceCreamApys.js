@@ -1,7 +1,7 @@
 const { avaxWeb3: web3 } = require('../../../utils/web3');
 const { AVAX_CHAIN_ID: chainId } = require('../../../constants');
 const { getMasterChefApys } = require('../common/getMasterChefApys');
-const pools = require('../../../data/avax/creamLpPools.json');
+const pools = require('../../../data/avax/icecreamLpPools.json');
 import { joeClient } from '../../../apollo/client';
 import { JOE_LPF } from '../../../constants';
 
