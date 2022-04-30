@@ -16,7 +16,7 @@ const AVAX = {
 
 const _tokens = {
   PIGGY: {
-    name: 'IceCream Finance',
+    name: 'PIGGY',
     symbol: 'PIGGY',
     address: '0x1a877B68bdA77d78EEa607443CcDE667B31B0CdF',
     chainId: 43114,
@@ -28,7 +28,7 @@ const _tokens = {
       'https://raw.githubusercontent.com/Piggy-Finance/piggyfinance-assets/main/logo_piggy.png',
   },
   PSHARE: {
-    name: 'IceCream Shares',
+    name: 'PSHARE',
     symbol: 'PSHARE',
     address: '0xA5e2cFe48fe8C4ABD682CA2B10fCAaFE34b8774c',
     chainId: 43114,
