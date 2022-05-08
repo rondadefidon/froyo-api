@@ -1,0 +1,11 @@
+[
+  {
+    "name": "zombie-zombie",
+    "poolId": 6,
+    "address": "0x431bDC9975D570da5eD69C4E97e27114BCd55a86",
+    "oracle": "tokens",
+    "oracleId": "ZOMBIE",
+    "decimals": "1e18",
+    "chainId": 43114
+  }
+]

@@ -15,6 +15,28 @@ const AVAX = {
 } as const;
 
 const _tokens = {
+  ZOMBIE: {
+    name: 'zombie.finance',
+    symbol: 'ZOMBIE',
+    address: '0x431bDC9975D570da5eD69C4E97e27114BCd55a86',
+    chainId: 43114,
+    decimals: 18,
+    website: 'https://www.zombie-finance.com/#/',
+    description:
+      'Algo stablecoin on Avalanche C Chain, pegged to the price of 0.1 AVAX via seigniorage.',
+    logoURI: 'https://www.zombie-finance.com/static/media/ZOMBIE-rounded.19fa627b.svg',
+  },
+  GSHARE: {
+    name: 'GSHARE',
+    symbol: 'GSHARE',
+    address: '0xFfE04Bf98C7111360Bf7A6c56b343915543cD941',
+    chainId: 43114,
+    decimals: 18,
+    website: 'https://www.grave-finance.com/#/',
+    description:
+      'Algo stablecoin on Avalanche C Chain, pegged to the price of 0.1 AVAX via seigniorage.',
+    logoURI: 'https://www.grave-finance.com/static/media/GSHARE-rounded.b6ef5862.svg',
+  },
   PIGGY: {
     name: 'PIGGY',
     symbol: 'PIGGY',
