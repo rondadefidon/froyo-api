@@ -1,0 +1,40 @@
+[
+  {
+    "name": "zombie-zombie-avax",
+    "address": "0x9CE2f9fbF653Be9796346E8896655A6392fe3769",
+    "decimals": "1e18",
+    "poolId": 0,
+    "chainId": 43114,
+    "lp1": {
+      "address": "0x431bDC9975D570da5eD69C4E97e27114BCd55a86",
+      "oracle": "tokens",
+      "oracleId": "ZOMBIE",
+      "decimals": "1e18"
+    },
+    "lp0": {
+      "address": "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7",
+      "oracle": "tokens",
+      "oracleId": "AVAX",
+      "decimals": "1e18"
+    }
+  },
+  {
+    "name": "zombie-gshare-avax",
+    "address": "0xae427aD7a54f5490eF76b3bDe3663b0e45c7A102",
+    "decimals": "1e18",
+    "poolId": 1,
+    "chainId": 43114,
+    "lp1": {
+      "address": "0xFfE04Bf98C7111360Bf7A6c56b343915543cD941",
+      "oracle": "tokens",
+      "oracleId": "GSHARE",
+      "decimals": "1e18"
+    },
+    "lp0": {
+      "address": "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7",
+      "oracle": "tokens",
+      "oracleId": "AVAX",
+      "decimals": "1e18"
+    }
+  }
+]
