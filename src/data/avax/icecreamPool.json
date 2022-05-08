@@ -1,0 +1,11 @@
+[
+  {
+    "name": "icecream-cream",
+    "poolId": 3,
+    "address": "0xAE21d31a6494829a9E4B2B291F4984AAE8121757",
+    "oracle": "tokens",
+    "oracleId": "CREAM",
+    "decimals": "1e18",
+    "chainId": 43114
+  }
+]

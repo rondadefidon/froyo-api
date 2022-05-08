@@ -26,9 +26,13 @@ import getbeJOEApy from './getbeJOEApy';
 import getbeJOEEarnApy from './getbeJOEEarnApy';
 const getIceCreamApys = require('./getIceCreamApys');
 const getSundaeApys = require('./getSundaeApys');
+const getIceCreamSingleApys = require('./getIceCreamSingleApys');
+const getSundaeSingleApys = require('./getSundaeSingleApys');
 const getPiggyApys = require('./getPiggyApys');
 
 const getApys = [
+  getSundaeSingleApys,
+  getIceCreamSingleApys,
   getPiggyApys,
   getIceCreamApys,
   getSundaeApys,
