@@ -12,7 +12,7 @@ const getZombieApys = async () =>
     masterchef: '0xF051dB01326355303A24bEa002409dcD71d396a0',
     tokenPerBlock: 'gSharePerSecond',
     hasMultiplier: false,
-    singlePools: pools,
+    pools: pools,
     oracleId: 'GSHARE',
     oracle: 'tokens',
     decimals: '1e18',
