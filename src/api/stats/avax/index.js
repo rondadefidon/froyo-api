@@ -30,8 +30,10 @@ const getIceCreamSingleApys = require('./getIceCreamSingleApys');
 const getSundaeSingleApys = require('./getSundaeSingleApys');
 const getPiggyApys = require('./getPiggyApys');
 const getZombieSingleApys = require('./getZombieSingleApys');
+const getZombieApys = require('./getZombieApys');
 
 const getApys = [
+  getZombieApys,
   getZombieSingleApys,
   getSundaeSingleApys,
   getIceCreamSingleApys,

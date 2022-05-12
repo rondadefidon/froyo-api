@@ -1,9 +1,9 @@
 [
   {
     "name": "zombie-zombie-avax",
-    "address": "0x9CE2f9fbF653Be9796346E8896655A6392fe3769",
+    "address": "0xF051dB01326355303A24bEa002409dcD71d396a0",
     "decimals": "1e18",
-    "poolId": 0,
+    "poolId": 3,
     "chainId": 43114,
     "lp1": {
       "address": "0x431bDC9975D570da5eD69C4E97e27114BCd55a86",
@@ -20,7 +20,7 @@
   },
   {
     "name": "zombie-gshare-avax",
-    "address": "0xae427aD7a54f5490eF76b3bDe3663b0e45c7A102",
+    "address": "0xF051dB01326355303A24bEa002409dcD71d396a0",
     "decimals": "1e18",
     "poolId": 1,
     "chainId": 43114,
