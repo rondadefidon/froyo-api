@@ -230,6 +230,7 @@ import sundaePools from '../../data/avax/sundaeLpPools.json';
 import creamPools from '../../data/avax/icecreamLpPools.json';
 import piggyPools from '../../data/avax/piggyLpPools.json';
 import zombiePools from '../../data/avax/zombieLpPools.json';
+import frozenPools from '../../data/avax/frozenLpPools.json';
 //import sundaeSinglePools from '../../data/avax/sundaePool.json';
 //import creamSinglePools from '../../data/avax/icecreamPool.json';
 
@@ -241,6 +242,7 @@ const REFRESH_INTERVAL = 5 * 60 * 1000;
 const pools = [
   // ...sundaeSinglePools,
   //...creamSinglePools,
+  ...frozenPools,
   ...zombiePools,
   ...piggyPools,
   ...sundaePools,

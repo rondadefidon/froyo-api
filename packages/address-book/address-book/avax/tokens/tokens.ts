@@ -15,6 +15,39 @@ const AVAX = {
 } as const;
 
 const _tokens = {
+  ZSHARE: {
+    name: 'ZSHARE',
+    symbol: 'ZSHARE',
+    address: '0xF05e236A139CB19851cD5568A85094D6EE331fAc',
+    chainId: 43114,
+    decimals: 18,
+    website: 'https://www.zombie-finance.com/#/',
+    description:
+      'Algo stablecoin on Avalanche C Chain, pegged to the price of 0.1 AVAX via seigniorage.',
+    logoURI: 'https://www.zombie-finance.com/static/media/ZSHARE-rounded.8c762d1d.svg',
+  },
+  FLOT: {
+    name: 'Frozentomb Lot',
+    symbol: 'FLOT',
+    address: '0x155dBbB7CE079f7b8EcfFf9688AdF6e6efb69a24',
+    chainId: 43114,
+    decimals: 18,
+    website: 'https://www.frozentomb.finance/',
+    description:
+      'Algo stablecoin on Avalanche C Chain, pegged to the price of AVAX via seigniorage.',
+    logoURI: 'https://www.frozentomb.finance/static/media/flot.6e98745c.svg',
+  },
+  FTOMB: {
+    name: 'Frozentomb Token',
+    symbol: 'FTOMB',
+    address: '0x7dFCe792c83F283ECfE7EA7ed308F9B891073540',
+    chainId: 43114,
+    decimals: 18,
+    website: 'https://www.frozentomb.finance/',
+    description:
+      'Algo stablecoin on Avalanche C Chain, pegged to the price of AVAX via seigniorage.',
+    logoURI: 'https://www.frozentomb.finance/static/media/ftomb.fcf72429.svg',
+  },
   ZOMBIE: {
     name: 'zombie.finance',
     symbol: 'ZOMBIE',

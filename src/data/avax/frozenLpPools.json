@@ -1,0 +1,40 @@
+[
+  {
+    "name": "frozen-ftomb-avax",
+    "address": "0x2c2123c69B4f0C48497cCf6BeA092Bb2d1e371B8",
+    "decimals": "1e18",
+    "poolId": 0,
+    "chainId": 43114,
+    "lp1": {
+      "address": "0x7dFCe792c83F283ECfE7EA7ed308F9B891073540",
+      "oracle": "tokens",
+      "oracleId": "FTOMB",
+      "decimals": "1e18"
+    },
+    "lp0": {
+      "address": "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7",
+      "oracle": "tokens",
+      "oracleId": "AVAX",
+      "decimals": "1e18"
+    }
+  },
+  {
+    "name": "frozen-flot-avax",
+    "address": "0x1C70504af046030a2b51403189a7D68158fB28Ab",
+    "decimals": "1e18",
+    "poolId": 1,
+    "chainId": 43114,
+    "lp1": {
+      "address": "0x155dBbB7CE079f7b8EcfFf9688AdF6e6efb69a24",
+      "oracle": "tokens",
+      "oracleId": "FLOT",
+      "decimals": "1e18"
+    },
+    "lp0": {
+      "address": "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7",
+      "oracle": "tokens",
+      "oracleId": "AVAX",
+      "decimals": "1e18"
+    }
+  }
+]

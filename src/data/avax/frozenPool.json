@@ -1,0 +1,11 @@
+[
+  {
+    "name": "frozen-ftomb",
+    "poolId": 4,
+    "address": "0x7dFCe792c83F283ECfE7EA7ed308F9B891073540",
+    "oracle": "tokens",
+    "oracleId": "FTOMB",
+    "decimals": "1e18",
+    "chainId": 43114
+  }
+]

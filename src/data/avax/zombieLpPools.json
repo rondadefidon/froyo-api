@@ -36,5 +36,24 @@
       "oracleId": "AVAX",
       "decimals": "1e18"
     }
+  },
+  {
+    "name": "zombie-zshare-avax",
+    "address": "0xB2D5515a9F2036937d473583ca96E34933534003",
+    "decimals": "1e18",
+    "poolId": 4,
+    "chainId": 43114,
+    "lp1": {
+      "address": "0xF05e236A139CB19851cD5568A85094D6EE331fAc",
+      "oracle": "tokens",
+      "oracleId": "ZSHARE",
+      "decimals": "1e18"
+    },
+    "lp0": {
+      "address": "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7",
+      "oracle": "tokens",
+      "oracleId": "AVAX",
+      "decimals": "1e18"
+    }
   }
 ]
