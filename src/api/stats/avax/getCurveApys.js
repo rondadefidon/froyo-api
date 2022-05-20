@@ -1,3 +1,5 @@
+import { MultiCall } from 'eth-multicall';
+
 const BigNumber = require('bignumber.js');
 const { avaxWeb3: web3 } = require('../../../utils/web3');
 
@@ -9,6 +11,8 @@ import {
   getYearlyRewardsInUsd,
 } from '../common/curve/getCurveApyData';
 import { getContractWithProvider } from '../../../utils/contractHelper';
+import { multicallAddress } from '../../../utils/web3';
+import { AVAX_CHAIN_ID } from '../../../constants';
 
 const ICurvePool = require('../../../abis/ICurvePool.json');
 const { getAavePoolData } = require('./getAaveApys');
@@ -16,12 +20,13 @@ const { getAavePoolData } = require('./getAaveApys');
 const aavePools = require('../../../data/avax/aavePools.json');
 const pools = require('../../../data/avax/curvePools.json');
 
-const baseApyUrl = 'https://stats.curve.fi/raw-stats-avalanche/apys.json';
-const factoryApyUrl = 'https://api.curve.fi/api/getFactoryAPYs-avalanche';
+const baseApyUrl = 'https://api.curve.fi/api/getSubgraphData/avalanche';
+// const baseApyUrl = 'https://stats.curve.fi/raw-stats-avalanche/apys.json';
+// const factoryApyUrl = 'https://api.curve.fi/api/getFactoryAPYs-avalanche';
 const tradingFees = 0.0002;
 
 const getCurveApys = async () => {
-  const baseApys = await getCurveBaseApys(pools, baseApyUrl, factoryApyUrl);
+  const baseApys = await getCurveBaseApys(pools, baseApyUrl);
   const farmApys = await getPoolApys(pools);
   const poolsMap = pools.map(p => ({ name: p.name, address: p.name }));
   return getApyBreakdown(poolsMap, baseApys, farmApys, tradingFees);
@@ -41,7 +46,7 @@ const getPoolApys = async pools => {
 const getPoolApy = async pool => {
   if (pool.status === 'eol') return new BigNumber(0);
   const [yearlyRewardsInUsd, totalStakedInUsd, aaveMaticApy] = await Promise.all([
-    getYearlyRewardsInUsd(web3, pool),
+    getYearlyRewardsInUsd(web3, new MultiCall(web3, multicallAddress(AVAX_CHAIN_ID)), pool),
     getTotalStakedInUsd(web3, pool),
     getAaveApy(pool),
   ]);

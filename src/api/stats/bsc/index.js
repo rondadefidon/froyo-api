@@ -1,15 +1,12 @@
 const getAlpacaApys = require('./alpaca/getAlpacaApys');
 const getBeltApys = require('./belt/getBeltApys');
 const { getDegensLpApys } = require('./degens');
-const getEllipsisLpApys = require('./ellipsis/getEllipsisLpApys');
-const getEllipsisSingleAssetApy = require('./ellipsis/getEllipsisSingleAssetApy');
 const getIcarusApys = require('./icarus/getIcarusApys');
 const getJetswapApys = require('./jetfuel/getJetswapApys');
 const getKebabLpApys = require('./kebab/getKebabLpApys');
 const getKebabPoolApy = require('./kebab/getKebabPoolApy');
 const getCakeApys = require('./pancake/getCakeApys');
 const getCakePoolApy = require('./pancake/getCakePoolApy');
-const { getCakeLpApys } = require('./pancake/getCakeLpApys');
 const { getCakeLpV2Apys } = require('./pancake/getCakeLpV2Apys');
 const getVenusApys = require('./venus/getVenusApys');
 const getMdexBscLpApys = require('./mdex/getMdexBscLpApys');
@@ -28,6 +25,9 @@ const getBiswapApys = require('./biswap/getBiswapApys');
 const getStargateApys = require('./stargate/getStargateBscApys');
 const getValasApys = require('./valas/getValasApys');
 const getValasLpApys = require('./valas/getValasLpApys');
+const getbeCakeApy = require('./pancake/getbeCakeApy');
+const getbeCakeEarnApy = require('./pancake/getbeCakeEarnApy');
+const { getDotDotApy } = require('./getDotDotApy');
 
 const getApys = [
   getAlpacaApys,
@@ -38,12 +38,9 @@ const getApys = [
   getBiswapApys,
   getCakeApys,
   getCakePoolApy,
-  // getCakeLpApys,
   getCakeLpV2Apys,
   getCakeV2PoolApy,
   getDegensLpApys,
-  getEllipsisLpApys,
-  getEllipsisSingleAssetApy,
   getFarmheroApys,
   getIcarusApys,
   getJetswapApys,
@@ -60,6 +57,9 @@ const getApys = [
   getStargateApys,
   getValasApys,
   getValasLpApys,
+  getbeCakeApy,
+  getbeCakeEarnApy,
+  getDotDotApy,
 ];
 // ^^ APYs are sorted alphabetically
 

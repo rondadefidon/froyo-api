@@ -31,6 +31,10 @@ import {
   METIS_CHAIN_ID,
   MOONBEAM_RPC,
   MOONBEAM_CHAIN_ID,
+  SYS_RPC,
+  SYS_CHAIN_ID,
+  EMERALD_RPC,
+  EMERALD_CHAIN_ID,
 } from '../constants';
 
 const MULTICALLS: Record<ChainId, Pick<BeefyFinance, 'multicall'>['multicall']> = {
@@ -48,6 +52,8 @@ const MULTICALLS: Record<ChainId, Pick<BeefyFinance, 'multicall'>['multicall']> 
   [ChainId.fuse]: addressBookByChainId[ChainId.fuse].platforms.beefyfinance.multicall,
   [ChainId.metis]: addressBookByChainId[ChainId.metis].platforms.beefyfinance.multicall,
   [ChainId.moonbeam]: addressBookByChainId[ChainId.moonbeam].platforms.beefyfinance.multicall,
+  [ChainId.sys]: addressBookByChainId[ChainId.sys].platforms.beefyfinance.multicall,
+  [ChainId.emerald]: addressBookByChainId[ChainId.emerald].platforms.beefyfinance.multicall,
 };
 
 const clients: Record<keyof typeof ChainId, Web3[]> = {
@@ -65,6 +71,8 @@ const clients: Record<keyof typeof ChainId, Web3[]> = {
   fuse: [],
   metis: [],
   moonbeam: [],
+  sys: [],
+  emerald: [],
 };
 BSC_RPC_ENDPOINTS.forEach(endpoint => {
   clients.bsc.push(new Web3(endpoint));
@@ -82,6 +90,8 @@ clients.aurora.push(new Web3(AURORA_RPC));
 clients.fuse.push(new Web3(FUSE_RPC));
 clients.metis.push(new Web3(METIS_RPC));
 clients.moonbeam.push(new Web3(MOONBEAM_RPC));
+clients.sys.push(new Web3(SYS_RPC));
+clients.emerald.push(new Web3(EMERALD_RPC));
 
 export const chainRandomClients = {
   bscRandomClient: () => clients.bsc[~~(clients.bsc.length * Math.random())],
@@ -98,6 +108,8 @@ export const chainRandomClients = {
   fuseRandomClient: () => clients.fuse[~~(clients.fuse.length * Math.random())],
   metisRandomClient: () => clients.metis[~~(clients.metis.length * Math.random())],
   moonbeamRandomClient: () => clients.moonbeam[~~(clients.moonbeam.length * Math.random())],
+  sysRandomClient: () => clients.sys[~~(clients.sys.length * Math.random())],
+  emeraldRandomClient: () => clients.emerald[~~(clients.emerald.length * Math.random())],
 };
 
 export const _web3Factory = (chainId: ChainId) => {
@@ -130,6 +142,10 @@ export const _web3Factory = (chainId: ChainId) => {
       return chainRandomClients.metisRandomClient();
     case MOONBEAM_CHAIN_ID:
       return chainRandomClients.moonbeamRandomClient();
+    case SYS_CHAIN_ID:
+      return chainRandomClients.sysRandomClient();
+    case EMERALD_CHAIN_ID:
+      return chainRandomClients.emeraldRandomClient();
   }
 };
 

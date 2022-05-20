@@ -1,3 +1,5 @@
+import { MultiCall } from 'eth-multicall';
+
 const BigNumber = require('bignumber.js');
 const { polygonWeb3: web3 } = require('../../../utils/web3');
 
@@ -9,6 +11,8 @@ import {
   getYearlyRewardsInUsd,
 } from '../common/curve/getCurveApyData';
 import { getContractWithProvider } from '../../../utils/contractHelper';
+import { multicallAddress } from '../../../utils/web3';
+import { POLYGON_CHAIN_ID } from '../../../constants';
 
 const ICurvePool = require('../../../abis/ICurvePool.json');
 const { getAavePoolData } = require('./getAaveApys');
@@ -16,7 +20,8 @@ const { getAavePoolData } = require('./getAaveApys');
 const aavePools = require('../../../data/matic/aavePools.json');
 const pools = require('../../../data/matic/curvePools.json');
 
-const baseApyUrl = 'https://stats.curve.fi/raw-stats-polygon/apys.json';
+const baseApyUrl = 'https://api.curve.fi/api/getSubgraphData/polygon';
+// const baseApyUrl = 'https://stats.curve.fi/raw-stats-polygon/apys.json';
 const tradingFees = 0.00015;
 
 const getCurveApys = async () => {
@@ -40,7 +45,7 @@ const getPoolApys = async pools => {
 const getPoolApy = async pool => {
   if (pool.status === 'eol') return new BigNumber(0);
   const [yearlyRewardsInUsd, totalStakedInUsd, aaveMaticApy] = await Promise.all([
-    getYearlyRewardsInUsd(web3, pool),
+    getYearlyRewardsInUsd(web3, new MultiCall(web3, multicallAddress(POLYGON_CHAIN_ID)), pool),
     getTotalStakedInUsd(web3, pool),
     getAaveApy(pool),
   ]);
@@ -51,6 +56,9 @@ const getPoolApy = async pool => {
 };
 
 const getAaveApy = async pool => {
+  // no Matic APY on aave v2
+  return new BigNumber(0);
+
   let promises = [];
   pool.tokens.forEach(token => promises.push(getAaveMaticApy(token)));
   pool.tokens.forEach((token, i) => promises.push(getTokenBalance(pool.pool, token, i)));

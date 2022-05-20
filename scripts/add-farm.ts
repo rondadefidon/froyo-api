@@ -21,6 +21,9 @@ const {
   moonbeam: {
     platforms: { stellaswap, beamswap, solarflare },
   },
+  emerald: {
+    platforms: { yuzu },
+  },
 } = addressBook;
 
 const yargs = require('yargs');
@@ -112,8 +115,13 @@ const projects = {
   },
   stellaswap: {
     prefix: 'stellaswap',
-    file: '../src/data/moonbeam/stellaswapLpPools.json',
-    masterchef: stellaswap.masterchef,
+    file: '../src/data/moonbeam/stellaswapLpV2Pools.json',
+    masterchef: stellaswap.masterchefV1distributorV2,
+  },
+  yuzu: {
+    prefix: 'yuzu',
+    file: '../src/data/emerald/yuzuLpPools.json',
+    masterchef: yuzu.masterchef,
   },
 };
 
@@ -179,7 +187,7 @@ async function fetchToken(tokenAddress) {
     address: checksummedTokenAddress,
     chainId: chainId,
     decimals: await tokenContract.decimals(),
-    logoURI: `https://pancakeswap.finance/images/tokens/${checksummedTokenAddress}.svg`,
+    logoURI: `https://tokens.pancakeswap.finance/images/${checksummedTokenAddress}.svg`,
     website: '',
     description: '',
   };

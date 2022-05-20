@@ -233,6 +233,11 @@ import zombiePools from '../../data/avax/zombieLpPools.json';
 import frozenPools from '../../data/avax/frozenLpPools.json';
 //import sundaeSinglePools from '../../data/avax/sundaePool.json';
 //import creamSinglePools from '../../data/avax/icecreamPool.json';
+import bombLpPools from '../../data/degens/bombLpPools.json';
+import pegasysLpPools from '../../data/sys/pegasysLpPools.json';
+import ripaeLpPools from '../../data/degens/ripaeLpPools.json';
+import yuzuLpPools from '../../data/emerald/yuzuLpPools.json';
+import yuzuDualPools from '../../data/emerald/yuzuDualLpPools.json';
 
 const INIT_DELAY = 2 * 1000;
 const REFRESH_INTERVAL = 5 * 60 * 1000;
@@ -247,6 +252,11 @@ const pools = [
   ...piggyPools,
   ...sundaePools,
   ...creamPools,
+  ...yuzuDualPools,
+  ...yuzuLpPools,
+  ...ripaeLpPools,
+  ...pegasysLpPools,
+  ...bombLpPools,
   ...valasLpPools,
   ...spookyV2LpPools,
   ...vvsDualPools,
@@ -482,11 +492,9 @@ const knownPrices = {
   HUSD: 1,
   DAI: 1,
   USDC: 1,
-  UST: 1,
   USDN: 1,
   cUSD: 1,
   asUSDC: 1,
-  USTaxl: 1,
 };
 
 let tokenPricesCache: Promise<any>;
@@ -520,6 +528,7 @@ const updateAmmPrices = async () => {
       return {
         beJOE: tokenPrices['JOE'],
         beQI: tokenPrices['QI'],
+        beCAKE: tokenPrices['Cake'],
       };
     });
 
