@@ -26,6 +26,28 @@ const _tokens = {
     website: 'https://versagames.io/',
     description: 'VersaGames is the next-generation games marketplace.',
   },
+  DEER: {
+    chainId: 25,
+    address: '0x6D6D6ba0c7e7DBaFffeC82b1ddF92e271650a63A',
+    decimals: 18,
+    name: 'ToxicDeer Finance',
+    symbol: 'DEER',
+    website: 'https://toxicdeer.finance/',
+    description: 'The first algorithmic token pegged to USDC running on the Cronos Chain',
+    logoURI:
+      'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgZmlsbD0iIzEwMTAxMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPG1hc2sgaWQ9Im1hc2swXzExXzE0MiIgc3R5bGU9Im1hc2stdHlwZTphbHBoYSIgbWFza1VuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeD0iMCIgeT0iMCIgd2lkdGg9IjYwIiBoZWlnaHQ9IjYwIj4KPGNpcmNsZSBjeD0iMzAiIGN5PSIzMCIgcj0iMzAiIGZpbGw9IiNDNEM0QzQiLz4KPC9tYXNrPgo8ZyBtYXNrPSJ1cmwoI21hc2swXzExXzE0MikiPgo8Y2lyY2xlIGN4PSIzMCIgY3k9IjMwIiByPSIyOC41IiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjMiLz4KPG1hc2sgaWQ9Im1hc2sxXzExXzE0MiIgc3R5bGU9Im1hc2stdHlwZTphbHBoYSIgbWFza1VuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeD0iMCIgeT0iMCIgd2lkdGg9IjYwIiBoZWlnaHQ9IjYwIj4KPGNpcmNsZSBjeD0iMzAiIGN5PSIzMCIgcj0iMzAiIGZpbGw9IiMwMEZGMUEiLz4KPC9tYXNrPgo8ZyBtYXNrPSJ1cmwoI21hc2sxXzExXzE0MikiPgo8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTYzLjA0OTMgMjUuNTZINTYuMjk2NUM1NC4wMzMzIDI1LjU2IDUxLjk2MjYgMjYuODMzNiA1MC45NDE3IDI4Ljg1MzRMNDUuMzU5OSAzOS44OTY5SDM3LjcxMDVMMzcuNzEwNCAzOS44OTcxTDM3LjA3NDggMzkuOTJMMjcuODUzIDYyLjU1NUgyMC4xMDk5TDI5LjI4ODggMzkuOTJIMjIuNjA2MkMyMC4yMTU1IDM5LjkyIDE4LjA1MyA0MS4zMzkzIDE3LjEwMTcgNDMuNTMyNUwxMi41NjIyIDUzLjk5ODNINC45NDUwN0wxMC40MTk2IDQwLjM3MjdDMTIuMjQ2NSAzNS44MjU5IDE2LjY1NDQgMzIuODQ2NiAyMS41NTQ1IDMyLjg0NjZIMzguOTYwNkw0Mi43ODIzIDI1LjU2SDM3LjE4MDhMMzMuNjMxNSAxOC42MTQxSDE0LjI0OTlMNy40OTI3MyA0LjUxODFIMTQuMjQ5OUwxOC4wMDM5IDExLjY2ODNIMzAuOTAxM0wyNC4wMDc2IC0yLjQ3MjY2SDMwLjkwMTNMNDEuNjg1NiAxOC42MTQxSDQ0LjczMDNINDUuNTQ4N0g2MC4xMTI3TDYzLjA0OTMgMjUuNTZaIiBmaWxsPSIjMDBGRjFBIi8+CjwvZz4KPC9nPgo8L3N2Zz4K',
+  },
+  XDSHARE: {
+    chainId: 25,
+    address: '0x6F715158d4B1468528DA002F5941c72fe4159520',
+    decimals: 18,
+    name: 'ToxicDeer Share',
+    symbol: 'XDSHARE',
+    website: 'https://toxicdeer.finance/',
+    description: 'The first algorithmic token pegged to USDC running on the Cronos Chain',
+    logoURI:
+      'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPG1hc2sgaWQ9Im1hc2swXzEyNV82OSIgc3R5bGU9Im1hc2stdHlwZTphbHBoYSIgbWFza1VuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeD0iMCIgeT0iMCIgd2lkdGg9IjYwIiBoZWlnaHQ9IjYwIj4KPGNpcmNsZSBjeD0iMzAiIGN5PSIzMCIgcj0iMzAiIGZpbGw9IiNDNEM0QzQiLz4KPC9tYXNrPgo8ZyBtYXNrPSJ1cmwoI21hc2swXzEyNV82OSkiPgo8Y2lyY2xlIGN4PSIzMCIgY3k9IjMwIiByPSIyOC41IiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjMiIGZpbGw9IiMxMDEwMTAiLz4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xOS4yMTU4IC03LjVINDIuMzIxMVYyMC45MTQ1TDYyLjk5NzQgNDguNUgtMi4xMjkwM0wxOS4yMTU4IDIwLjg4NTZWLTcuNVpNMjYuMjE1OCAtMC41VjIzLjI3NTZMMTIuMTI5MSA0MS41SDQ5LjAwMjZMMzUuMzIxMSAyMy4yNDY3Vi0wLjVIMjYuMjE1OFoiIGZpbGw9IiMwMEZGMUEiLz4KPC9nPgo8L3N2Zz4K',
+  },
   ALI: {
     name: 'Alethea Artificial Liquid Intelligence Token ALI',
     symbol: 'ALI',

@@ -6,8 +6,10 @@ const getVvsApys = require('./getVvsApys');
 const getVvsDualApys = require('./getVvsDualApys');
 const getCronaApys = require('./getCronaApys');
 const getDarkApys = require('./getDarkApys');
+const getToxicApys = require('./getToxicApys');
 
 const getApys = [
+  getToxicApys,
   getVvsApys,
   getVvsDualApys,
   getCronaApys,

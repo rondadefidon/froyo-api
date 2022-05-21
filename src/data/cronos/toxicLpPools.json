@@ -1,0 +1,40 @@
+[
+  {
+    "name": "toxic-deer-usdc",
+    "address": "0x264f27BF0eC4fE383Cfda50F1bb11588735bbE6D",
+    "decimals": "1e18",
+    "poolId": 0,
+    "chainId": 25,
+    "lp0": {
+      "address": "0xc21223249CA28397B4B6541dfFaEcC539BfF0c59",
+      "oracle": "tokens",
+      "oracleId": "USDC",
+      "decimals": "1e6"
+    },
+    "lp1": {
+      "address": "0x6D6D6ba0c7e7DBaFffeC82b1ddF92e271650a63A",
+      "oracle": "tokens",
+      "oracleId": "DEER",
+      "decimals": "1e18"
+    }
+  },
+  {
+    "name": "toxic-xdshare-usdc",
+    "address": "0x18cD20C6CA9Ccfe1C8b48516e6d5e0055a0271D2",
+    "decimals": "1e18",
+    "poolId": 1,
+    "chainId": 25,
+    "lp0": {
+      "address": "0xc21223249CA28397B4B6541dfFaEcC539BfF0c59",
+      "oracle": "tokens",
+      "oracleId": "USDC",
+      "decimals": "1e6"
+    },
+    "lp1": {
+      "address": "0x6F715158d4B1468528DA002F5941c72fe4159520",
+      "oracle": "tokens",
+      "oracleId": "XDSHARE",
+      "decimals": "1e18"
+    }
+  }
+]

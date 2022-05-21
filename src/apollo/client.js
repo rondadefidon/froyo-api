@@ -82,6 +82,7 @@ const beamClient = client('https://api.thegraph.com/subgraphs/name/beamswap/beam
 const solarflareClient = client('https://analytics.solarflare.io/api/subgraph');
 const stellaClient = client('https://api.thegraph.com/subgraphs/name/stellaswap/stella-swap');
 const vvsClient = client('https://graph.vvs.finance/exchange');
+const mmfClient = client('https://api.thegraph.com/subgraphs/name/easonwang01/mmf-finance');
 const finnClient = client(
   'https://graph-node.huckleberry.finance/subgraphs/name/huckleberry/huckleberry-subgraph'
 );
@@ -148,6 +149,7 @@ module.exports = {
   beetClient,
   isBeetClient,
   vvsClient,
+  mmfClient,
   finnClient,
   fusefiClient,
   netswapClient,
