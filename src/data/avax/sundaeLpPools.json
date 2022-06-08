@@ -36,5 +36,24 @@
       "oracleId": "STRAW",
       "decimals": "1e18"
     }
+  },
+  {
+    "name": "sundae-straw-dai",
+    "address": "0xf71149502bc064a7Da58C4E275DA7896ed3f14F3",
+    "decimals": "1e18",
+    "poolId": 7,
+    "chainId": 43114,
+    "lp0": {
+      "address": "0xd586E7F844cEa2F87f50152665BCbc2C279D8d70",
+      "oracle": "tokens",
+      "oracleId": "DAI",
+      "decimals": "1e18"
+    },
+    "lp1": {
+      "address": "0xf8D0C6c3ddC03F43A0687847f2b34bfd6941C2A2",
+      "oracle": "tokens",
+      "oracleId": "STRAW",
+      "decimals": "1e18"
+    }
   }
 ]
