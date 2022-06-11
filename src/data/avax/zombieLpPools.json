@@ -55,5 +55,24 @@
       "oracleId": "AVAX",
       "decimals": "1e18"
     }
+  },
+  {
+    "name": "zombie-grave-avax",
+    "address": "0x10E882aCfae3Cf63e96741FaBc41c19025E7be2a",
+    "decimals": "1e18",
+    "poolId": 0,
+    "chainId": 43114,
+    "lp1": {
+      "address": "0x3700a92dd231F0CaC37D31dBcF4c0f5cCb1db6Ca",
+      "oracle": "tokens",
+      "oracleId": "GRAVE",
+      "decimals": "1e18"
+    },
+    "lp0": {
+      "address": "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7",
+      "oracle": "tokens",
+      "oracleId": "AVAX",
+      "decimals": "1e18"
+    }
   }
 ]

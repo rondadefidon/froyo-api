@@ -70,6 +70,17 @@ const _tokens = {
       'Algo stablecoin on Avalanche C Chain, pegged to the price of 0.1 AVAX via seigniorage.',
     logoURI: 'https://www.grave-finance.com/static/media/GSHARE-rounded.b6ef5862.svg',
   },
+  GRAVE: {
+    name: 'grave.finance',
+    symbol: 'GRAVE',
+    address: '0x3700a92dd231F0CaC37D31dBcF4c0f5cCb1db6Ca',
+    chainId: 43114,
+    decimals: 18,
+    website: 'https://www.grave-finance.com/#/',
+    description:
+      'Algo stablecoin on Avalanche C Chain, pegged to the price of 0.1 AVAX via seigniorage.',
+    logoURI: 'https://www.grave-finance.com/static/media/GRAVE-rounded.b6ef5862.svg',
+  },
   PIGGY: {
     name: 'PIGGY',
     symbol: 'PIGGY',
