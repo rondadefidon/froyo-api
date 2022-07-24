@@ -43,7 +43,7 @@ const updateApys = async () => {
       // getArbitrumApys(),
       // getCeloApys(),
       // getMoonriverApys(),
-      getCronosApys(),
+      // getCronosApys(),
       // getAuroraApys(),
       // getFuseApys(),
       // getMetisApys(),
