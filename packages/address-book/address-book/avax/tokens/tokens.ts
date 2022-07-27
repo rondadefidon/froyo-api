@@ -15,6 +15,28 @@ const AVAX = {
 } as const;
 
 const _tokens = {
+  STOMB: {
+    name: 'Snowtomb Token',
+    symbol: 'STOMB',
+    address: '0x9e6832D13b29d0B1C1c3465242681039b31C7a05',
+    chainId: 43114,
+    decimals: 18,
+    website: 'https://www.snowtomb.com/',
+    description:
+      'Algo stablecoin on Avalanche C Chain, pegged to the price of AVAX via seigniorage.',
+    logoURI: 'https://www.snowtomb.com/static/media/crypto_stomb_cash.e0ddac53.svg',
+  },
+  SLOT: {
+    name: 'Snowtomb Lot',
+    symbol: 'SLOT',
+    address: '0x924157B5dbB387A823719916B25256410a4Ad470',
+    chainId: 43114,
+    decimals: 18,
+    website: 'https://www.snowtomb.com/',
+    description:
+      'Algo stablecoin on Avalanche C Chain, pegged to the price of AVAX via seigniorage.',
+    logoURI: 'https://www.snowtomb.com/static/media/crypto_stomb_share.11c7ba58.svg',
+  },
   ZSHARE: {
     name: 'ZSHARE',
     symbol: 'ZSHARE',

@@ -36,5 +36,43 @@
       "oracleId": "AVAX",
       "decimals": "1e18"
     }
+  },
+  {
+    "name": "snow-slot-avax",
+    "address": "0x04FC1CEC422792C2CA41671a24184834B433fc18",
+    "decimals": "1e18",
+    "poolId": 1,
+    "chainId": 43114,
+    "lp1": {
+      "address": "0x924157B5dbB387A823719916B25256410a4Ad470",
+      "oracle": "tokens",
+      "oracleId": "SLOT",
+      "decimals": "1e18"
+    },
+    "lp0": {
+      "address": "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7",
+      "oracle": "tokens",
+      "oracleId": "AVAX",
+      "decimals": "1e18"
+    }
+  },
+  {
+    "name": "snow-stomb-avax",
+    "address": "0x75ADAD64D0CC5F7eC4B0b1dc078F7D8C5b24056f",
+    "decimals": "1e18",
+    "poolId": 2,
+    "chainId": 43114,
+    "lp1": {
+      "address": "0x9e6832D13b29d0B1C1c3465242681039b31C7a05",
+      "oracle": "tokens",
+      "oracleId": "STOMB",
+      "decimals": "1e18"
+    },
+    "lp0": {
+      "address": "0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7",
+      "oracle": "tokens",
+      "oracleId": "AVAX",
+      "decimals": "1e18"
+    }
   }
 ]
